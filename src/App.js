@@ -3,6 +3,7 @@ import logo from './assets/logo.svg'
 import './App.css';
 import  star from './assets/Star.svg'
 import { motion } from "framer-motion"
+import Teams from './components/teams';
 
 function App() {
   return (
@@ -42,9 +43,9 @@ function App() {
 
 
       </section>
-      <h1>teams</h1>
-      <section className="teams">
-      </section>
+      
+      <Teams/>
+
       <section className="contact">
         <h1>contact</h1>
       </section>

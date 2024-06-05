@@ -1,7 +1,9 @@
 body{
   background-color: #E0E0E0;
 }
-
+body::-webkit-scrollbar {
+  display: none;
+}
 .hero
 {
   height: 100vh;
