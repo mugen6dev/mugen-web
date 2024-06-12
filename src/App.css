@@ -168,3 +168,112 @@ letter-spacing: 5px;
 
 
 }
+
+/* Contact css */
+
+.content1{
+  font-family: "Fira Code", monospace;
+  letter-spacing: .2em;
+  font-size:  1em;
+  /* font-size: 4; */
+  padding-left: 45%;
+  padding-top: 5px;
+}
+
+.my-form{
+  font-family:  "Fira Code", monospace;
+  background-color: #D9D9D9;
+  padding: 40px 50px; 
+  border-radius: 10px; /* Rounded corners */
+  max-width: 450px; /* Maximum width of the form */
+  margin: 0 auto; /* Center the form horizontally */
+  box-shadow: 0 4px 8px rgba(86, 62, 62, 0.1);
+}
+
+
+.my-form label{
+  padding-bottom: 8px;
+  display: block;
+  font-weight: 500;
+
+}
+
+.my-form .form-group{
+  padding-bottom: 25px;
+
+  
+}
+
+.my-form input[type="text"], .my-form textarea{
+  font-family:  "Fira Code", monospace;
+  /* padding: 8px; */
+  width: 97%;
+  border: none;
+  border-bottom: 2px solid #705656;
+  background: transparent;
+  outline: none;
+  font-size: 13px;
+  padding-bottom: 15px;
+}
+
+.my-form .button {
+  margin-top: 10px; /* Reduced top margin for the button */
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+.my-form .button:hover {
+  background-color: #555;
+}
+
+
+.stars {
+  position: absolute ;
+
+ top: 0;
+ left: 0;
+ margin: 0;
+}
+
+#star11 {
+  position: absolute;
+  left: 20vw;
+  top: 230vh;
+}
+#star12 {
+  position: absolute;
+  left: 50vw;
+  scale: 0.5;
+  top: 220vh;
+}
+#star13 {
+  position: absolute;
+  left: 50vw;
+  top: 290vh;
+  transform: rotate(20deg);
+}
+
+#star14 {
+  position: absolute;
+  left: 80vw;
+  top: 250vh;
+  transform: rotate(20deg);
+}
+
+#star15 {
+  position: absolute;
+  left: 90vw;
+  top: 290vh;
+  transform: rotate(20deg);
+}
+
+#star16 {
+  position: absolute;
+  left: 10vw;
+  top: 265vh;
+  transform: rotate(20deg);
+}
