@@ -17,7 +17,7 @@ function App() {
       <Teams/>
 
       <section className="contact" id='contactid'>
-      <h1>CONTACT</h1>
+
       <Contact/>
       </section>
     
