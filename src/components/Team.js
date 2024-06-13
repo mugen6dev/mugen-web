@@ -57,7 +57,7 @@ const Team = () => {
                 <div className="member">
                     <div className="member-image" style={{backgroundImage: 'url(./assets/sanju.jpg)'}} />
                     <div className="member-name">Sanjay Kumar</div>
-                    <div className="member-role">Backend Developer</div>
+                    <div className="member-role">Founder</div>
                     <div className="member-socials">
                         <a href="https://github.com/swagath26" className="socials-icon-container">
                             <img src="./assets/github.svg" style={{width: '80%'}}></img>
@@ -73,7 +73,7 @@ const Team = () => {
                 <div className="member">
                     <div className="member-image" style={{backgroundImage: 'url(./assets/abe.jpg)'}} />
                     <div className="member-name">Abhay R</div>
-                    <div className="member-role">Android/IOS Developer</div>
+                    <div className="member-role">Founding Member</div>
                     <div className="member-socials">
                         <a href="https://github.com/swagath26" className="socials-icon-container">
                             <img src="./assets/github.svg" style={{width: '80%'}}></img>

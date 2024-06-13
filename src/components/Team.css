@@ -21,11 +21,11 @@
     text-align: center; 
     color: #1E1F1F; 
     font-size: 40px; 
-    font-family: Cascadia Code; 
+    font-family:  "Fira Code", monospace; 
     font-weight: 700; 
     letter-spacing: 6px; 
     word-wrap: break-word;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 #team-intro {
@@ -33,54 +33,77 @@
     text-align: center; 
     color: #1E1F1F; 
     font-size: 16px; 
-    font-family: Cascadia Code; 
-    font-weight: 300; 
-    letter-spacing: 2.40px;
+    font-family:  "Fira Code", monospace; 
+    font-weight: 400; 
+    letter-spacing: 1px;
     line-height: 1.5;
     word-wrap: break-word;
+}
+@media (width < 991px) {
+    #team-intro {
+        padding: 0 10vw 10px 10vw;
+        letter-spacing: normal;
+    }
 }
 
 #team-display {
     align-self: stretch; 
-    padding: 0 13vw;
+    padding: 0 12vw;
     justify-content: center;
-    gap: 25px;
+    /* gap: 25px; */
     align-items: center; 
     display: flex;
     flex-wrap: wrap;
 }
-@media (width < 991px) {
-    #team-display {
-        flex-direction: column;
-    }
-}
 
 .member {
-    width: 245px; 
-    padding: 40px 10px; 
+    width: 18vw; 
+    padding: 40px 0px; 
     display: flex; 
     flex-direction: column; 
     align-items: center;
 }
+@media (width < 991px) {
+    .member {
+        width: 33vw;
+    }
+}
+@media (width < 991px) {
+    .member {
+        width: 38vw;
+    }
+}
 
 .member-image {
-    width: 200px; 
-    height: 200px; 
+    width: 13vw; 
+    height: 13vw; 
     background-size: contain; 
     background-repeat: no-repeat; 
     border-radius: 50%;
 }
+@media (width < 991px) {
+    .member-image {
+        width: 23vw;
+        height: 23vw;
+    }
+}
+@media (width < 768px) {
+    .member-image {
+        width: 27vw;
+        height: 27vw;
+    }
+}
 
 .member-name {
-    font-family: Cascadia Code; 
+    font-family:  "Fira Code", monospace; 
     font-size: 19px; 
     padding-top: 20px;
 }
 
 .member-role {
-    font-family: Cascadia Code; 
+    font-family:  "Fira Code", monospace; 
     color: #1E1F1F; 
-    font-size: 16px; 
+    font-size: 12px; 
     padding-top: 10px; 
     padding-bottom: 20px;
 }
