@@ -3,8 +3,6 @@ import logo from '../assets/logo.svg';
 import star from '../assets/Star.svg';
 import { ReactTyped } from "react-typed";
 import { motion } from "framer-motion";
-import hand1 from '../assets/hand1.png';
-import hand2 from '../assets/hand2.png';
 import hand from '../assets/hand.svg';
 
 const Hero = () => {
