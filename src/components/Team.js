@@ -57,7 +57,7 @@ const Team = () => {
                 <div className="member">
                     <div className="member-image" style={{backgroundImage: 'url(./assets/sanju.jpg)'}} />
                     <div className="member-name">Sanjay Kumar</div>
-                    <div className="member-role">Founder</div>
+                    <div className="member-role">Founder<br/>Backend Developer</div>
                     <div className="member-socials">
                         <a href="https://github.com/swagath26" className="socials-icon-container">
                             <img src="./assets/github.svg" style={{width: '80%'}}></img>
@@ -73,7 +73,7 @@ const Team = () => {
                 <div className="member">
                     <div className="member-image" style={{backgroundImage: 'url(./assets/abe.jpg)'}} />
                     <div className="member-name">Abhay R</div>
-                    <div className="member-role">Founding Member</div>
+                    <div className="member-role">Founding Member<br/>UI/UX Designer</div>
                     <div className="member-socials">
                         <a href="https://github.com/swagath26" className="socials-icon-container">
                             <img src="./assets/github.svg" style={{width: '80%'}}></img>
@@ -89,7 +89,7 @@ const Team = () => {
                 <div className="member">
                     <div className="member-image" style={{backgroundImage: 'url(./assets/swak.jpg)'}} />
                     <div className="member-name">Swagath N S</div>
-                    <div className="member-role">Web Developer</div>
+                    <div className="member-role">Founding Member<br/>Web Developer</div>
                     <div className="member-socials">
                         <a href="https://github.com/swagath26" className="socials-icon-container">
                             <img src="./assets/github.svg" style={{width: '80%'}}></img>
@@ -105,7 +105,7 @@ const Team = () => {
                 <div className="member">
                     <div className="member-image" style={{backgroundImage: 'url(./assets/irman.jpg)'}} />
                     <div className="member-name">Imran Sajawal</div>
-                    <div className="member-role">Android/IOS Developer</div>
+                    <div className="member-role">Founding Member<br/>Android/IOS Developer</div>
                     <div className="member-socials">
                         <a href="https://github.com/IMRAN-SAJAWAL-1234" className="socials-icon-container">
                             <img src="./assets/github.svg" style={{width: '80%'}}></img>

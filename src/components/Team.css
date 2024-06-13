@@ -123,6 +123,7 @@
     font-size: 12px; 
     padding-top: 10px; 
     padding-bottom: 20px;
+    text-align: center;
 }
 @media (width < 768px) {
     .member-role {
