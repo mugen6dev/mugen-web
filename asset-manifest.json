@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mugen-web/static/css/main.fcae3ede.css",
-    "main.js": "/mugen-web/static/js/main.82fc3f7d.js",
+    "main.js": "/mugen-web/static/js/main.7a0038b4.js",
     "static/js/453.ed3810f9.chunk.js": "/mugen-web/static/js/453.ed3810f9.chunk.js",
     "static/media/hand.svg": "/mugen-web/static/media/hand.1aea85199dd4e2e2fdc5df30ddc412eb.svg",
     "static/media/hand1.png": "/mugen-web/static/media/hand1.dfb63426658f53b70f45.png",
@@ -11,11 +11,11 @@
     "index.html": "/mugen-web/index.html",
     "static/media/Star.svg": "/mugen-web/static/media/Star.fede8c7fa314b240d6f2e3bf1c2c5e79.svg",
     "main.fcae3ede.css.map": "/mugen-web/static/css/main.fcae3ede.css.map",
-    "main.82fc3f7d.js.map": "/mugen-web/static/js/main.82fc3f7d.js.map",
+    "main.7a0038b4.js.map": "/mugen-web/static/js/main.7a0038b4.js.map",
     "453.ed3810f9.chunk.js.map": "/mugen-web/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fcae3ede.css",
-    "static/js/main.82fc3f7d.js"
+    "static/js/main.7a0038b4.js"
   ]
 }
