@@ -5,28 +5,43 @@ import { ReactTyped } from "react-typed";
 import { motion } from "framer-motion";
 import hand1 from '../assets/hand1.png';
 import hand2 from '../assets/hand2.png';
+import hand from '../assets/hand.svg';
 
 const Hero = () => {
   return (
     <div>
-            <nav>
-        <a id = 'teamlink' href="#teamid">TEAM</a>
-        <a id = 'contactlink' href="#contactid">CONTACT</a>
+      <nav>
+        <motion.a id='teamlink' href="#teamid"
+          animate={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: -2000 }}
+          transition={{ type: "spring", duration: 0.5 }}
+        >
+          TEAM</motion.a>
+        <motion.a id='contactlink' href="#contactid"
+
+          animate={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: 2000 }}
+          transition={{ type: "spring", duration: 0.5 }}
+        >CONTACT</motion.a>
       </nav>
-      <div className="content">
+      <motion.div className="content"
+        animate={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: 20 }}
+        transition={{ duration: 1 }}
+      >
         <img id="logo" src={logo} alt="" />
 
         <div className="hands">
-        <motion.img animate={{ scale: [0.8, 1] }} transition={{ duration: 4, repeat: Infinity, repeatType: "mirror" }} src={hand1} alt="" id='hand1' />
-        <p>CRAFTING  NEXT  GENERATION  INTERFACES</p>
-        <motion.img animate={{ scale: [0.8, 1] }} transition={{ duration: 4, repeat: Infinity, repeatType: "mirror" }} src={hand2} alt="" id='hand2' />
+          <motion.img animate={{ scale: [0.8, 1] , }} transition={{ duration: 4, repeat: Infinity, repeatType: "mirror" }} src={hand} alt="" id='hand1' />
+
+          <div className="typed">
+            <p>CRAFTING  NEXT  GENERATION  INTERFACES</p>
+            <ReactTyped strings={["APP DEVELOPMENT", "WEB DEVELOPMENT", "UI DESIGN"]} typeSpeed={100} backSpeed={50} loop />
+          </div>
+          <motion.img animate={{ scale: [0.8, 1] , rotate: [180] }} transition={{ duration: 4, repeat: Infinity, repeatType: "mirror" }} src={hand} alt="" id='hand2' />
         </div>
 
-        <div className="typed">
-          <ReactTyped strings={["APP DEVELOPMENT", "WEB DEVELOPMENT", "UI DESIGN"]} typeSpeed={100} backSpeed={50} loop />
-
-        </div>
-      </div>
+      </motion.div>
 
       <div className='stars'>
         <motion.img id='star1' src={star} alt=""
