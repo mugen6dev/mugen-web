@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <div>
       <nav>
-        <motion.a id='teamlink' href="#teamid"
+        <motion.a id='teamlink' href="#team-title"
           animate={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -2000 }}
           transition={{ type: "spring", duration: 0.5 }}

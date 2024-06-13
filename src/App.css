@@ -168,6 +168,10 @@ margin: 0;
 }
 
 
+.container1 {
+  padding-top: 20vh;
+}
+
 /* Media queries */
 
 @media (max-width : 600px) {

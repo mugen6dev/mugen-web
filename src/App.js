@@ -14,7 +14,10 @@ function App() {
         <Hero />
       </section>
       
+      
       <Team/>
+
+     
 
       <section className="contact" id='contactid'>
 
