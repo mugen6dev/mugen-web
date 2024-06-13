@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/%7Bmugen-web%7D/static/css/main.f89baa0a.css",
+    "main.js": "/%7Bmugen-web%7D/static/js/main.1e8dcf17.js",
+    "static/js/453.ed3810f9.chunk.js": "/%7Bmugen-web%7D/static/js/453.ed3810f9.chunk.js",
+    "static/media/hand.svg": "/%7Bmugen-web%7D/static/media/hand.1aea85199dd4e2e2fdc5df30ddc412eb.svg",
+    "static/media/hand1.png": "/%7Bmugen-web%7D/static/media/hand1.dfb63426658f53b70f45.png",
+    "static/media/hand2.png": "/%7Bmugen-web%7D/static/media/hand2.4838d0216d065b650e86.png",
+    "static/media/bg.png": "/%7Bmugen-web%7D/static/media/bg.76250b721b0bd2e3b8a4.png",
+    "static/media/logo.svg": "/%7Bmugen-web%7D/static/media/logo.e7e336488a044632b2e574a5038e948a.svg",
+    "index.html": "/%7Bmugen-web%7D/index.html",
+    "static/media/Star.svg": "/%7Bmugen-web%7D/static/media/Star.fede8c7fa314b240d6f2e3bf1c2c5e79.svg",
+    "main.f89baa0a.css.map": "/%7Bmugen-web%7D/static/css/main.f89baa0a.css.map",
+    "main.1e8dcf17.js.map": "/%7Bmugen-web%7D/static/js/main.1e8dcf17.js.map",
+    "453.ed3810f9.chunk.js.map": "/%7Bmugen-web%7D/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f89baa0a.css",
+    "static/js/main.1e8dcf17.js"
+  ]
+}
