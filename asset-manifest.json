@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/mugen-web/static/css/main.fcae3ede.css",
-    "main.js": "/mugen-web/static/js/main.7a0038b4.js",
+    "main.css": "/mugen-web/static/css/main.885dafbd.css",
+    "main.js": "/mugen-web/static/js/main.8cec389e.js",
     "static/js/453.ed3810f9.chunk.js": "/mugen-web/static/js/453.ed3810f9.chunk.js",
     "static/media/hand.svg": "/mugen-web/static/media/hand.1aea85199dd4e2e2fdc5df30ddc412eb.svg",
     "static/media/hand1.png": "/mugen-web/static/media/hand1.dfb63426658f53b70f45.png",
     "static/media/hand2.png": "/mugen-web/static/media/hand2.4838d0216d065b650e86.png",
     "static/media/bg.png": "/mugen-web/static/media/bg.76250b721b0bd2e3b8a4.png",
-    "static/media/logo.svg": "/mugen-web/static/media/logo.e7e336488a044632b2e574a5038e948a.svg",
+    "static/media/logo.svg": "/mugen-web/static/media/logo.cbaa75a414b90d04f07f6ba317fcf078.svg",
     "index.html": "/mugen-web/index.html",
-    "static/media/Star.svg": "/mugen-web/static/media/Star.fede8c7fa314b240d6f2e3bf1c2c5e79.svg",
-    "main.fcae3ede.css.map": "/mugen-web/static/css/main.fcae3ede.css.map",
-    "main.7a0038b4.js.map": "/mugen-web/static/js/main.7a0038b4.js.map",
+    "static/media/Star.svg": "/mugen-web/static/media/Star.361c884b3dc6fe2fbc20ca6f6ee352d2.svg",
+    "main.885dafbd.css.map": "/mugen-web/static/css/main.885dafbd.css.map",
+    "main.8cec389e.js.map": "/mugen-web/static/js/main.8cec389e.js.map",
     "453.ed3810f9.chunk.js.map": "/mugen-web/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcae3ede.css",
-    "static/js/main.7a0038b4.js"
+    "static/css/main.885dafbd.css",
+    "static/js/main.8cec389e.js"
   ]
 }
