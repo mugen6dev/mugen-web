@@ -4,7 +4,7 @@ import  star from './assets/Star.svg'
 import { motion } from "framer-motion"
 import Teams from './components/teams';
 import Hero from './components/Hero';
-import Contact from './components/Contact';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Teams/>
 
       <section className="contact" id='contactid'>
-      <h1>CONTACT</h1>
+
       <Contact/>
       </section>
     
