@@ -1,6 +1,13 @@
 import { motion } from "framer-motion";
 import star from '../assets/Star.svg';
-import './Team.css'
+import './Team.css';
+import githubIcon from '../assets/github.svg';
+import linkedinIcon from '../assets/linkedin.svg';
+import twitterIcon from '../assets/twitter.svg';
+import sanjuPic from '../assets/sanju.jpg';
+import abePic from '../assets/abe.jpg';
+import swakPic from '../assets/swak.jpg';
+import irmanPic from '../assets/irman.jpg';
 
 const StarBackground = () => {
     return (
@@ -41,6 +48,27 @@ const StarBackground = () => {
     )
 }
 
+const Member = ({image, name, role1, role2, githubLink, linkedinLink, twitterLink}) => {
+    return (
+        <div className="member">
+            <div className="member-image" style={{backgroundImage: `url(${image})`}} />
+            <div className="member-name">{name}</div>
+            <div className="member-role">{role1}<br/>{role2}</div>
+            <div className="member-socials">
+                <a href={githubLink} className="socials-icon-container">
+                    <img src={githubIcon} style={{width: '80%'}}></img>
+                </a>
+                <a href={linkedinLink} className="socials-icon-container">
+                    <img src={linkedinIcon} style={{width: '60%'}}></img>
+                </a>
+                <a href={twitterLink} className="socials-icon-container">
+                    <img src={twitterIcon} style={{width: '60%'}}></img>
+                </a>
+            </div>
+        </div>
+    )
+}
+
 const Team = () => {
     return (
         <section id='team-section'>
@@ -50,74 +78,44 @@ const Team = () => {
             <div id="team-title">OUR TEAM</div>
             
             <div id="team-intro">
-                We are a team of developers and recent graduates from NIT Calicut. With a fresh perspective and a drive for innovation, we deliver trending and top-notch software solutions.   
+                We are a team of developers and recent graduates from NIT Calicut. With a fresh 
+                perspective and a drive for innovation, we deliver trending and top-notch software solutions.   
             </div>
             
             <div id="team-display">
-                <div className="member">
-                    <div className="member-image" style={{backgroundImage: 'url(./assets/sanju.jpg)'}} />
-                    <div className="member-name">Sanjay Kumar</div>
-                    <div className="member-role">Founder<br/>Backend Developer</div>
-                    <div className="member-socials">
-                        <a href="https://github.com/swagath26" className="socials-icon-container">
-                            <img src="./assets/github.svg" style={{width: '80%'}}></img>
-                        </a>
-                        <a href="https://www.linkedin.com/in/swagath-n-s-213304189/" className="socials-icon-container">
-                            <img src="./assets/linkedin.svg" style={{width: '60%'}}></img>
-                        </a>
-                        <a href="https://github.com/swagath26" className="socials-icon-container">
-                            <img src="./assets/twitter.svg" style={{width: '60%'}}></img>
-                        </a>
-                    </div>
-                </div>
-                <div className="member">
-                    <div className="member-image" style={{backgroundImage: 'url(./assets/abe.jpg)'}} />
-                    <div className="member-name">Abhay R</div>
-                    <div className="member-role">Founding Member<br/>UI/UX Designer</div>
-                    <div className="member-socials">
-                        <a href="https://github.com/swagath26" className="socials-icon-container">
-                            <img src="./assets/github.svg" style={{width: '80%'}}></img>
-                        </a>
-                        <a href="https://www.linkedin.com/in/swagath-n-s-213304189/" className="socials-icon-container">
-                            <img src="./assets/linkedin.svg" style={{width: '60%'}}></img>
-                        </a>
-                        <a href="https://github.com/swagath26" className="socials-icon-container">
-                            <img src="./assets/twitter.svg" style={{width: '60%'}}></img>
-                        </a>
-                    </div>
-                </div>
-                <div className="member">
-                    <div className="member-image" style={{backgroundImage: 'url(./assets/swak.jpg)'}} />
-                    <div className="member-name">Swagath N S</div>
-                    <div className="member-role">Founding Member<br/>Web Developer</div>
-                    <div className="member-socials">
-                        <a href="https://github.com/swagath26" className="socials-icon-container">
-                            <img src="./assets/github.svg" style={{width: '80%'}}></img>
-                        </a>                        
-                        <a href="https://www.linkedin.com/in/swagath-n-s-213304189/" className="socials-icon-container">
-                            <img src="./assets/linkedin.svg" style={{width: '60%'}}></img>
-                        </a>
-                        <a href="https://github.com/swagath26" className="socials-icon-container">
-                            <img src="./assets/twitter.svg" style={{width: '60%'}}></img>
-                        </a>
-                    </div>
-                </div>
-                <div className="member">
-                    <div className="member-image" style={{backgroundImage: 'url(./assets/irman.jpg)'}} />
-                    <div className="member-name">Imran Sajawal</div>
-                    <div className="member-role">Founding Member<br/>Android/IOS Developer</div>
-                    <div className="member-socials">
-                        <a href="https://github.com/IMRAN-SAJAWAL-1234" className="socials-icon-container">
-                            <img src="./assets/github.svg" style={{width: '80%'}}></img>
-                        </a>
-                        <a href="https://www.linkedin.com/in/swagath-n-s-213304189/" className="socials-icon-container">
-                            <img src="./assets/linkedin.svg" style={{width: '60%'}}></img>
-                        </a>
-                        <a href="https://github.com/swagath26" className="socials-icon-container">
-                            <img src="./assets/twitter.svg" style={{width: '60%'}}></img>
-                        </a>
-                    </div>
-                </div>
+
+                <Member
+                    image={sanjuPic}
+                    name="Sanjay Kumar" role1="Founder" role2="Project Lead"
+                    githubLink="https://github.com/DE3V"
+                    linkedinLink="https://www.linkedin.com/in/sanjay-kumar-017415117/"
+                    twitterLink="https://twitter.com/"
+                />
+
+                <Member
+                    image={abePic}
+                    name="Abhay R" role1="Founding Member" role2="UI/UX Lead"
+                    githubLink="https://github.com/babyblue64"
+                    linkedinLink="https://www.linkedin.com/in/abhay-r-76153b166/"
+                    twitterLink="https://twitter.com/"
+                />
+
+                <Member
+                    image={swakPic}
+                    name="Swagath N S" role1="Founding Member" role2="Web-Development Lead"
+                    githubLink="https://github.com/swagath26"
+                    linkedinLink="https://www.linkedin.com/in/swagath-n-s-213304189/"
+                    twitterLink="https://twitter.com/"
+                />
+
+                <Member
+                    image={irmanPic}
+                    name="Imran Sajawal" role1="Founding Member" role2="Android/iOS Lead"
+                    githubLink="https://github.com/IMRAN-SAJAWAL-1234"
+                    linkedinLink="https://www.linkedin.com/in/imran-sajawal-585238212/"
+                    twitterLink="https://twitter.com/"
+                />
+                
             </div>
             
         </section>
