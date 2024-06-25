@@ -46,10 +46,10 @@ const Works = () => {
           infinite={true}
           responsive={responsive}>
 
-            <div className='card'>
-
+            <div className='card1'>
+              <a href="https://neurotunez.netlify.app/">
               <img src={neuroWeb} alt="website" />
-
+              </a>
               <div className='text'>
                 <h1>Neurotunez Web</h1>
                 <p>We are a team of developers and recent graduates from NIT Calicut. With a fresh perspective and a drive for innovation, we deliver trending and top-notch software solutions.</p>
@@ -57,9 +57,9 @@ const Works = () => {
 
             </div>
 
-            <div className='card'>
+            <div className='card2'>
 
-              <img src={phone} alt="website" />
+              <img src={phone} alt="phone" />
 
               <div className='text'>
                 <h1>Neurotunez App(In progress)</h1>
@@ -67,8 +67,6 @@ const Works = () => {
               </div>
 
             </div>
-            <div>Item 3</div>
-            <div>Item 4</div>
           </Carousel>
 
         </div>
