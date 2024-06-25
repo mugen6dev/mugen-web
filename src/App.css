@@ -9,6 +9,7 @@ body{
   background-color: #E0E0E0;
 
 }
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -18,15 +19,11 @@ body::-webkit-scrollbar {
   height: 100vh;
   display: flex;
   flex-direction: column;
-
   background-image: url('./assets/bg.png')   ;
   background-repeat: no-repeat; 
   background-position: center ,;
   background-size: 120vw ;
-
-
 }
-
 
 .teams
 {
@@ -44,7 +41,6 @@ body::-webkit-scrollbar {
 
 
 nav  {
-
   display: flex;
   justify-content: space-around;
   padding-top: 4vh;
@@ -73,7 +69,7 @@ nav a
   flex-direction: column;
   justify-content: center;
   align-items: center;
-    scale :1.1;
+scale :1.1;
   font-family: "Fira Code", monospace;
 
 }

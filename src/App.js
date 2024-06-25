@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 import Team from './components/Team';
 import Hero from './components/Hero';
 import Contact from './components/Contact';
+import Works from './components/Works';
 
 function App() {
   return (
@@ -14,13 +15,12 @@ function App() {
         <Hero />
       </section>
       
-      
-      <Team/>
-
+     
+        <Works />
      
 
+      <Team/>
       <section className="contact" id='contactid'>
-
       <Contact/>
       </section>
     

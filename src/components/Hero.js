@@ -10,17 +10,24 @@ const Hero = () => {
     <div>
       <nav>
         <motion.a id='teamlink' href="#team-section"
-          animate={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: -2000 }}
-          transition={{ type: "spring", duration: 0.5 }}
+          animate={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -20 }}
+          transition={{ duration: 1 }}
         >
           TEAM</motion.a>
         <motion.a id='contactlink' href="#contactid"
 
-          animate={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 2000 }}
-          transition={{ type: "spring", duration: 0.5 }}
+          animate={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -20 }}
+          transition={{ duration: 1 }}
         >CONTACT</motion.a>
+
+        <motion.a id='contactlink' href="#workid"
+
+          animate={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -20 }}
+          transition={{ duration: 1 }}
+        >WORKS</motion.a>
       </nav>
       <motion.div className="content"
         animate={{ opacity: 1, y: 0 }}
@@ -30,13 +37,13 @@ const Hero = () => {
         <img id="logo" src={logo} alt="" />
 
         <div className="hands">
-          <motion.img animate={{ scale: [0.8, 1] , }} transition={{ duration: 4, repeat: Infinity, repeatType: "mirror" }} src={hand} alt="" id='hand1' />
+          <motion.img animate={{ scale: [0.8, 1], }} transition={{ duration: 4, repeat: Infinity, repeatType: "mirror" }} src={hand} alt="" id='hand1' />
 
           <div className="typed">
             <p>CRAFTING  NEXT  GENERATION  INTERFACES</p>
             <ReactTyped strings={["APP DEVELOPMENT", "WEB DEVELOPMENT", "UI DESIGN"]} typeSpeed={100} backSpeed={50} loop />
           </div>
-          <motion.img animate={{ scale: [0.8, 1] , rotate: [180] }} transition={{ duration: 4, repeat: Infinity, repeatType: "mirror" }} src={hand} alt="" id='hand2' />
+          <motion.img animate={{ scale: [0.8, 1], rotate: [180] }} transition={{ duration: 4, repeat: Infinity, repeatType: "mirror" }} src={hand} alt="" id='hand2' />
         </div>
 
       </motion.div>
