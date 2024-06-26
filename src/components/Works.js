@@ -6,6 +6,8 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { CustomLeftArrow, CustomRightArrow } from './CustomArrows';
 import phone from '../assets/phone.png';
+import click from '../assets/click.svg'
+
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -48,8 +50,9 @@ const Works = () => {
 
             <div className='card1'>
               <a href="https://neurotunez.netlify.app/">
-              <img src={neuroWeb} alt="website" />
+              <img className='card-image' src={neuroWeb} alt="website" />
               </a>
+              <img className='click' src={click} alt="" />
               <div className='text'>
                 <h1>Neurotunez Web</h1>
                 <p>We are a team of developers and recent graduates from NIT Calicut. With a fresh perspective and a drive for innovation, we deliver trending and top-notch software solutions.</p>
